@@ -1,0 +1,59 @@
+{
+  "name": "wlb-component",
+  "version": "1.0.5",
+  "description": "wlb ui",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "wlb-component",
+    "react",
+    "ui"
+  ],
+  "author": "wangxiaoqing",
+  "license": "MIT",
+  "scripts": {
+    "example": "node server",
+    "dev": "rimraf lib && babel src --copy-files --source-maps --extensions .js --out-dir lib"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "classnames": "^2.2.5",
+    "express": "^4.13.4",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "css-loader": "^0.23.1",
+    "express-urlrewrite": "^1.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.16.0",
+    "img-loader": "^1.2.2",
+    "node-sass": "^3.4.2",
+    "rimraf": "^2.5.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.9.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  }
+}

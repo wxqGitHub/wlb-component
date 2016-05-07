@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/CheckBox/index.js"],"names":[],"mappings":";;;;;;AACA","file":"index.js","sourcesContent":["\nimport CheckBox from './component/CheckBox';\n\n\nexport default CheckBox;\n"]}
